@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <meta charset="utf.8">
+        <meta name= "description" content= "welcome to kids game">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name=viewport content="width=device-width, initial-scale=1">
+        <title> Kids Game </title>
+        <link rel="stylesheet" href="dist/css/base.css">
+    </head>
+    <body>
+        <div class="row first-page">
+            <button id="Btn"> Play</button>
+        </div>
+       <div class="row BG">
+        <div class="col-4 col-select">
+            <div>
+                <div class="card mb-3">
+                    <img class="level1"  src="dist/Pic/animal1.jpg" alt="Card image cap">
+                    <img class="level2" src="dist/Pic/cat.png" alt="cat">
+                    <img class="level3" src="dist/Pic/rabbit.jpg" alt="Card image cap">
+                    <img class="level4" src="dist/Pic/zebra.jpg" alt="Card image cap">
+                    <img class="level5" src="dist/Pic/giraffe.jpg" alt="giraffe">
+                </div>
+                <div class="card mb-3">
+                    <img class="level1"  src="dist/Pic/animal2.jpg" alt="dog">
+                    <img class="level2" src="dist/Pic/monkey.jpg" alt="Card image cap">
+                    <img class="level3" src="dist/Pic/lion.png"  alt="Card image cap">
+                    <img class="level4" src="dist/Pic/rat.png" alt="rat">
+                    <img class="level5" src="dist/Pic/clip.jpg" alt="Card image cap">
+                </div>
+                <div class="card">
+                    <img class="level1"  src="dist/Pic/animal3.jpg" alt="Card image cap">
+                    <img class="level2" src="dist/Pic/panda.jpg" alt="Card image cap">
+                    <img class="level3" src="dist/Pic/elephant.jpg" alt="elephant">
+                    <img class="level4" src="dist/Pic/bird.jpg" alt="Card image cap">
+                    <img class="level5" src="dist/Pic/lion.jpg" alt="Card image cap">
+                </div>
+            </div>
+        </div>
+        <div class="col-4 col-img">
+            <div>
+                <div class="BG-name">
+                    <h3 class="dog"> Dog </h3>
+                    <h3 class="cat"> Cat </h3>
+                    <h3 class="elephant"> Elephant </h3>
+                    <h3 class="rat"> Rat </h3>
+                    <h3 class="giraffe"> Giraffe </h3>
+                </div>
+                <div class="BG-img">
+        
+                </div>
+            </div>   
+        </div>
+        <div class="col-4 col-img">
+                <div class="row">
+                    <div>
+                    <div class="BG-score">
+                        <p>Score</p>
+                    </div>
+                    <div class="score">
+                        <span class="result">0</span>
+                    </div>
+                    </div>
+                </div> 
+        </div>
+       </div>
+       <div class="row last-page">
+           <div>
+                <div class="final-BG">
+                    <p>Your Score </p>      
+                </div>
+                <div class="final-result">
+                    <span class="score"></span> 
+                    <span> /25</span>
+                </div>
+                <button id="finalBtn"> Play Again</button>
+           </div> 
+        </div>
+        <script src="jquery/dist/jquery.min.js"></script>
+        <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="game.js"></script> 
+    </body>
+</html>
